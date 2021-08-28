@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font: 16px;
+}
+body{
+	background-image: url('../Images/bgbg.gif');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+header{
+	background-color: #333333;
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	top: 0;
+}
+.logo{
+	float:left;
+	padding-left: 30px;
+	padding-top: 30px;
+	width: 60px;
+	height: 60px;
+}
+nav{
+	right: 0;
+	position: fixed;
+	margin-left: 25%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-right: 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.accs{
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 15px;
+}
+
+
+
+
+section{
+	margin-top: 120px;
+}
+
+.one{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+.one h2{
+	
+}
+.one p{
+	margin: 50px;
+}
+.one a{
+	text-decoration: none;
+	color: white;
+}
+
+.two{
+	background-color: #222222;
+	width: 50%;
+	height: auto;
+	margin: 10px auto 10px 25%;
+	font-size: 20px;
+	float: initial;
+}
+.two p{
+	text-align: left;
+	padding: 2.5px 50px 15px 50px;
+	color: white;
+}
+.two h2{
+	padding: 15px 50px 2.5px 50px;
+	color: #CDCDCD;
+	text-align: left;
+	text-decoration: none;
+}
+.two a{
+	text-decoration: none;
+	color: #CDCDCD;
+}
+.description{
+	margin: 0px 17% 2.5px 50px;
+}
+
+
+
+
+footer{
+	background-color: #111111;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+}
+footer p{
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
